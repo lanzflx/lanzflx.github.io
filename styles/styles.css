@@ -1,0 +1,39 @@
+html {
+    font-size: 18px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive; /*pick from google font*/
+    background-color: rgb(238, 227, 201);
+}
+
+#header ul, li{         /* selector = div id + tag id */
+    font-size: 20px;
+    text-align: left;
+}
+
+#header {                /* selector = div id */
+    font-size: 50px;
+    text-align: center;
+}
+
+.post-author img{       /* selector = div class + tag */
+    width: 100px;
+}
+.post{                  /* selctor = div class */
+    color: blueviolet;
+    text-align: left;
+}
+.post-title{
+    font-size: 20px;
+    color: indigo;
+}
+#footer{
+    text-align: center;
+}
+body {
+    text-align: right;
+}
+.about {
+    text-align: left;
+}
+.about-author img {
+    width: 100px;
+}
